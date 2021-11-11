@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title> 박달나무 </title>
+
+    <!-- Styles -->
+    <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='assets/css/animate.min.css'>
+    <link rel='stylesheet' href="assets/css/font-awesome.min.css"/>
+    <link rel='stylesheet' href="assets/css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800' rel='stylesheet'
+          type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+<!-- Begin Hero Bg -->
+<div id="parallax">
+</div>
+<!-- End Hero Bg
+	================================================== -->
+<!-- Start Header
+	================================================== -->
+<header id="header" class="navbar navbar-inverse navbar-fixed-top" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- Your Logo -->
+            <a href="#main" class="navbar-brand">박달나무 <span class="lighter">포트폴리오</span></a>
+        </div>
+        <!-- Start Navigation -->
+        <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#main">메인</a>
+                </li>
+                <li>
+                    <a href="#about">개발 툴</a>
+                </li>
+                <li>
+                    <a href="#gallery">프로젝트</a>
+                </li>
+                <li>
+                    <a href="#slider">Testimonials</a>
+                </li>
+                <li>
+                    <a href="#faq">왜?</a>
+                </li>
+                <li>
+                    <a href="#contactarea">문의</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Intro
+	================================================== -->
+<section id="main" class="parallax section">
+<main role="main" class="main-content" id="main-content">
+    <div class="titleCont">
+        <h1 class="main-title" id="main-title">
+            "이것은 누군가의 첫 발자취이면서,<br><span style="padding-left:250px">도전의 증명이고,</span><br><span
+                style="padding-right:10px">또 누군가에겐 축적된 기록이며, </span><br><span style="padding-left:60px">노력의 증명이 되어줄 것이다."</span>
+        </h1>
+    </div>
+    <canvas id="noise" class="noise"></canvas>
+    <div class="vignette"></div>
+</main>
+</section>
+<!-- About
+	================================================== -->
+<section id="about" class="parallax section"
+         style="background-image: url(https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80);">
+    <div class="wrapsection">
+        <div class="parallax-overlay" style="background-color: #6d6d6d;opacity:0.9;"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Title -->
+                    <div class="maintitle">
+                        <h3 class="section-title">개발 툴</h3>
+                        <p class="lead">
+                            백지로 시작된 개발의 이해는 자바 스크립트java script로 어쩌구저쩌구
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-box wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                        <img src="http://themepush.com/demo/runcharity/assets/img/dummy.jpg" alt="">
+                        <h3>java script</h3>
+                        <div class="text-left">
+                            <p>
+                                프로젝트 불르발라
+                            </p>
+                            <p>
+                                블라블라
+                            </p>
+                            <p>
+                                블라블라!
+                            </p>
+                            <!--						<p class="text-center">-->
+                            <!--							<button type="button" class="btn btn-info btn-md"><a href="#">Learn More</a></button>-->
+                            <!--						</p>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                        <span class="glyphicon glyphicon-stats"></span>
+                        <h3>1.386 Participants</h3>
+                        <p>
+                            Nullam posuere, libero id interdum hendrerit, tortor nisl consectetur elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <span class="glyphicon glyphicon-tree-deciduous"></span>
+                        <h3>195 Concerts</h3>
+                        <p>
+                            Nullam posuere, libero id interdum hendrerit, tortor nisl consectetur elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                        <span class="glyphicon glyphicon-heart"></span>
+                        <h3>268 Sponsors</h3>
+                        <p>
+                            Nullam posuere, libero id interdum hendrerit, tortor nisl consectetur elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                        <span class="glyphicon glyphicon-usd"></span>
+                        <h3>$5.647 Donated</h3>
+                        <p>
+                            Nullam posuere, libero id interdum hendrerit, tortor nisl consectetur elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Gallery
+	================================================== -->
+<section id="gallery" class="parallax section"
+         style="background-image: url(https://images.unsplash.com/photo-1568399032147-1011aa65f85a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80);">
+    <div class="wrapsection">
+        <div class="parallax-overlay" style="background-color:#405050;opacity:0.9;"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 sol-sm-12">
+                    <div class="maintitle">
+                        <h3 class="section-title">진행 프로젝트</h3>
+                        <p class="lead wow flipInX">
+                            Have a look at your past events gallery, see how much fun we have while helping people all
+                            over the world. Join our community today!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://ununsplash.imgix.net/photo-1429277158984-614d155e0017?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050"
+                       title="This is the description">
+                        <img src="https://ununsplash.imgix.net/photo-1429277158984-614d155e0017?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050"
+                             alt="" class="image-responsive">
+                        전설의 취미는 6개월간 공부했던 지식을 모아 만든 첫 프로젝트입니다.
+                        inteliJ를 이용해 apach tomcat과 mariaDB를 서버로 두었고, spring boot로 기반을 다지고 차근히 원하는 형태와 기능을 구현해 나갔습니다.
+                        기타등등...
+                        <div class="description">
+                            <span class="caption">개인 프로젝트 <b>전설의 취미</b></span>
+                            <span class="camera"><i class="fa fa-camera"></i></span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Text Carousel
+	================================================== -->
+<section id="slider" class="parallax section"
+         style="background-image: url(https://images.unsplash.com/photo-1634838080334-28befa9efe80?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTYxfHxjb2Rpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60); width: 100%">
+    <div class="wrapsection">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="Carousel" class="carousel slide">
+                        <ol class="carousel-indicators">
+                            <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#Carousel" data-slide-to="1"></li>
+                            <li data-target="#Carousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <blockquote>
+                                    <p class="lead">
+                                        명언 대행진!
+                                    </p>
+                                    <small>John Bunyan, Marathon</small>
+                                </blockquote>
+                            </div>
+                            <div class="item">
+                                <blockquote>
+                                    <p class="lead">
+                                        명언!
+                                    </p>
+                                    <small>Mahatma Gandhi</small>
+                                </blockquote>
+                            </div>
+                            <div class="item">
+                                <blockquote>
+                                    <p class="lead">
+                                        대충멋진말!
+                                    </p>
+                                    <small>John Holmes, Organizer</small>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#Carousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#Carousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FAQ
+	================================================== -->
+<section id="faq" class="section">
+    <div class="wrapsection">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 sol-sm-12">
+                    <div class="maintitle">
+                        <h3 class="section-title">개발이 무엇을 바꾸었는가?</h3>
+                        <p class="lead">
+                            어쩌구저쩌구뭐쩌구
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="faq-block wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0s">
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                            개발에 뛰어든 이유? </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        How old. This is the detailed answer. It is a long established fact that a
+                                        reader will be distracted by the readable content of a page when looking at its
+                                        layout.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                            전공이었나? </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Can we? This is the detailed answer. It is a long established fact that a reader
+                                        will be distracted by the readable content of a page when looking at its layout.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                            자신에게 개발이 잘 맞는다고 생각하는지? </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        So how many. This is the detailed answer. It is a long established fact that a
+                                        reader will be distracted by the readable content of a page when looking at its
+                                        layout.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="faq-block wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                            Can we show sponsors? </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Sponsors. This is the detailed answer. It is a long established fact that a
+                                        reader will be distracted by the readable content of a page when looking at its
+                                        layout.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                            Are there free drinks? </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFive" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Drinks. This is the detailed answer. It is a long established fact that a reader
+                                        will be distracted by the readable content of a page when looking at its layout.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                                            Is medical exam free ? </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseSix" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Medical. This is the detailed answer. It is a long established fact that a
+                                        reader will be distracted by the readable content of a page when looking at its
+                                        layout.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="faq-block wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                                            Do you help with passport? </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseSeven" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Passport. This is the detailed answer. It is a long established fact that a
+                                        reader will be distracted by the readable content of a page when looking at its
+                                        layout.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
+                                            What routes should one follow? </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseEight" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Routes. This is the detailed answer. It is a long established fact that a reader
+                                        will be distracted by the readable content of a page when looking at its layout.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
+                                            Do I have to pay a tax? </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseNine" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Tax. This is the detailed answer. It is a long established fact that a reader
+                                        will be distracted by the readable content of a page when looking at its layout.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contactarea" class="parallax section"
+         style="background-image: url(http://themepush.com/demo/runcharity/assets/img/map.png);">
+    <div class="wrapsection">
+        <div class="parallax-overlay" style="background-color: #1cbb9b;opacity:0.95;"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="maintitle">
+                        <h3 class="section-title">Get in Touch</h3>
+                        <p class="lead">
+                            필요한 부분이 있으시다면 이쪽으로 바로 문의 주세요.
+                        </p>
+                    </div>
+                    <form id="contact" name="contact" method="post" class="text-left">
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-4 wow fadeIn animated animated" data-wow-delay="0.1s"
+                                     data-wow-duration="2s">
+                                    <label for="name">성함<span class="required">*</span></label>
+                                    <input type="text" name="name" id="name" size="30" value="" required/>
+                                </div>
+                                <div class="col-md-4 wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="2s">
+                                    <label for="email">이메일<span class="required">*</span></label>
+                                    <input type="text" name="email" id="email" size="30" value="" required/>
+                                </div>
+                                <div class="col-md-4 wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="2s">
+                                    <label for="phone">전화번호</label>
+                                    <input type="text" name="phone" id="phone" size="30" value=""/>
+                                </div>
+                            </div>
+                            <div class="wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="1.5"
+                                 style="margin-top:15px;">
+                                <label for="message">내용<span class="required">*</span></label>
+                                <textarea name="message" id="message" required></textarea>
+                            </div>
+                            <div class="wow fadeIn animated" data-wow-delay="0.3" data-wow-duration="1.5s">
+                                <input id="submit" type="submit" name="submit" value="Send"/>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <div id="success">
+                        <p class="contactalert">
+                            메시지가 발송 되었습니다.
+                        </p>
+                    </div>
+                    <div id="error">
+                        <p class="contactalert">
+                            메시지 발송 실패, 다시 한번 시도해 주세요.
+                            <button type="button"></button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p id="aaaaa"></p>
+</section>
+<!-- Credits
+=============================================== -->
+<!--<section id="credits" class="text-center">-->
+<!--	<span class="social wow zoomIn">-->
+<!--	<a href="#"><i class="fa fa-facebook"></i></a>-->
+<!--	<a href="#"><i class="fa fa-twitter"></i></a>-->
+<!--	<a href="#"><i class="fa fa-skype"></i></a>-->
+<!--	<a href="#"><i class="fa fa-linkedin"></i></a>-->
+<!--	<a href="#"><i class="fa fa-pinterest"></i></a>-->
+<!--	<a href="#"><i class="fa fa-google-plus"></i></a>-->
+<!--	</span><br/>-->
+<!--	Shared by <i class="fa fa-love"></i><a href="https://bootstrapthemes.co">BootstrapThemes</a>-->
+
+
+<!--</section>-->
+<!-- Bootstrap core JavaScript
+	================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/jquery.scrollTo.min.js"></script>
+<script src="assets/js/jquery.localScroll.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/validate.js"></script>
+<script src="assets/js/common.js"></script>
+
+<script>
+    $(function () {
+        const noise = () => {
+            let canvas, ctx;
+
+            let wWidth, wHeight;
+
+            let noiseData = [];
+            let frame = 0;
+
+            let loopTimeout;
+
+            // Create Noise
+            const createNoise = () => {
+                const idata = ctx.createImageData(wWidth, wHeight);
+                const buffer32 = new Uint32Array(idata.data.buffer);
+                const len = buffer32.length;
+
+                for (let i = 0; i < len; i++) {
+                    if (Math.random() < 0.5) {
+                        buffer32[i] = 0xff000000;
+                    }
+                }
+
+                noiseData.push(idata);
+            };
+
+            // Play Noise
+            const paintNoise = () => {
+                if (frame === 9) {
+                    frame = 0;
+                } else {
+                    frame++;
+                }
+
+                ctx.putImageData(noiseData[frame], 0, 0);
+            };
+
+            // Loop
+            const loop = () => {
+                paintNoise(frame);
+
+                loopTimeout = window.setTimeout(() => {
+                    window.requestAnimationFrame(loop);
+                }, (1000 / 25));
+            };
+
+            // Setup
+            const setup = () => {
+                wWidth = window.innerWidth;
+                wHeight = window.innerHeight;
+
+                canvas.width = wWidth;
+                canvas.height = wHeight;
+
+                for (let i = 0; i < 10; i++) {
+                    createNoise();
+                }
+
+                loop();
+            };
+
+            // Reset
+            let resizeThrottle;
+            const reset = () => {
+                window.addEventListener('resize', () => {
+                    window.clearTimeout(resizeThrottle);
+
+                    resizeThrottle = window.setTimeout(() => {
+                        window.clearTimeout(loopTimeout);
+                        setup();
+                    }, 200);
+                }, false);
+            };
+
+
+            // Init
+            const init = (() => {
+                canvas = document.getElementById('noise');
+                ctx = canvas.getContext('2d');
+
+                setup();
+            })();
+        };
+
+        noise();
+
+        var Pic = document.getElementById('pic').cloneNode();
+        document.getElementById('container').appendChild(Pic);
+        var line = document.createElement('div');
+        line.className = 'line';
+        document.getElementById('container').appendChild(line);
+
+
+        var tl = new TimelineMax({repeat: -1});
+
+        for (var i = 50; i--;) {
+            tl.to(Pic, R(0.03, 0.17), {opacity: R(0, 1), y: R(-1.5, 1.5)})
+        };
+
+        tl.to(line, tl.duration() / 2, {
+            opacity: R(0.1, 1),
+            x: R(0, 300),
+            ease: RoughEase.ease.config({strength: 0.5, points: 10, randomize: true, taper: "none"}),
+            repeat: 1,
+            yoyo: true
+        }, 0);
+
+        function R(max, min) {
+            return Math.random() * (max - min) + min
+        };
+    });
+</script>
+</body>
+</html>
