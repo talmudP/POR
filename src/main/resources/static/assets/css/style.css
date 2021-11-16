@@ -440,10 +440,11 @@ label {
 	padding-right:20px;
 }
 .service-box {
+	border-radius: 40px 80px;
 	margin-bottom:30px;
-	background-color:#fff;
+	background-color: #eaeff1;
 	color:#444;
-	padding:30px;
+	padding:20px;
 	  position: relative;
 }
 .service-box .glyphicon {
